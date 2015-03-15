@@ -2,9 +2,11 @@
 //Problem: user when clicking on image goes to a dead end
 //Solution: Create an overlay with the large image - Lightbox
 
+var $overlay = $('<div id = "overlay"></div>');
 
 
-
+// Add overlay
+$("body").append($overlay);
 
 
 
@@ -12,7 +14,9 @@
 
 $("#gallery a").click(function(event){
   event.preventDefault();
-  var imageLocation = $(this).attr("href");
+  // var imageLocation = $(this).attr("href");
 
+    //Show the overlay
+     $overlay.show();
 
 });
