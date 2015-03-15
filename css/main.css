@@ -14,7 +14,7 @@ a {
 }
 
 img {
-  max-width: 100%; 
+  max-width: 100%;
 }
 
 h3 {
@@ -52,7 +52,7 @@ h2 {
 
 h3 {
   font-size: 1.25em;
-  font-weight: normal; 
+  font-weight: normal;
 }
 
 /* ---------------- NAVIGATION -----------------*/
@@ -66,7 +66,7 @@ nav {
 nav ul {
   list-style: none;
   margin: 0 10px;
-  padding: 0; 
+  padding: 0;
 }
 
 nav li {
@@ -75,7 +75,7 @@ nav li {
 
 nav a {
   font-weight: normal;
-  padding: 15px 10px;  
+  padding: 15px 10px;
 }
 
 
@@ -97,7 +97,7 @@ footer {
 
 
 /* --------------- PAGE: PORTFOLIO ----------------------*/
-
+/* this is an id for a ul*/
 #gallery {
   margin: 0;
   padding: 0;
@@ -119,6 +119,17 @@ footer {
   font-size: 0.75em;
   color: #397A6F;
 }
+
+/* LIGHTBOX code added here */
+
+
+
+
+
+
+
+
+/* end of Lightbox code */
 
 
 
@@ -182,11 +193,11 @@ header {
  }
 
 nav {
- background-color: #00362D; 
+ background-color: #00362D;
 }
 
 h1, h2 {
- color: #00362D; 
+ color: #00362D;
 }
 
 /* nav link*/
@@ -196,7 +207,7 @@ a {
 
 /* nav link - visisted*/
 nav a, nav a:visited {
- color: #fff; 
+ color: #fff;
 }
 
 /* selected hover nav link*/
