@@ -4,12 +4,16 @@
 
 var $overlay = $('<div id = "overlay"></div>');
 var $image = $("<img>");
+var $caption = $("<p></p>");
 
 // Add an image to the overlay - image code
 $overlay.append($image);
 
 // Add overlay - add overlay div into body html
 $("body").append($overlay);
+
+// Add a caption to overlay
+$overlay.append($caption);
 
 
 
@@ -25,4 +29,14 @@ $("#gallery a").click(function(event){
     //Show the overlay
      $overlay.show();
 
+     //Get child's alt atrribute and set caption
+     var captionText = $(this).children("img").attr("alt");
+     //update overlay with the caption from link - alt tag
+     $caption.text(captionText);
 });
+
+// When overlay is clicked
+$overlay.click(function(){
+  //Hide the overlay (which will show whole page again)
+  $overlay.hide();
+})
