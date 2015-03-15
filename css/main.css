@@ -132,7 +132,9 @@ footer {
   text-align: center;
 }
 
-
+#overlay img {
+  margin-top: 15%;
+}
 
 
 
