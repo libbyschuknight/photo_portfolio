@@ -185,7 +185,11 @@ footer {
 }
 
 .contact-info li.twitter a {
-  background-image: url("../img/twitter.png");
+  background-image: url("../img/twitter-48.png");
+}
+
+.contact-info li.link a {
+  background-image: url("../img/link48.png");
 }
 
 
@@ -226,10 +230,3 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover  {
   color: #97E1D5;
 }
-
-
-
-
-
-
-

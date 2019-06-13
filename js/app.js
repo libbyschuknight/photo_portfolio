@@ -2,6 +2,10 @@
 //Problem: user when clicking on image goes to a dead end
 //Solution: Create an overlay with the large image - Lightbox
 
+// TODO:
+// change to using vanilla JS
+// change to being able to click through the photos when they pop up in lightbox type way
+
 var $overlay = $('<div id = "overlay"></div>');
 var $image = $("<img>");
 var $caption = $("<p></p>");
